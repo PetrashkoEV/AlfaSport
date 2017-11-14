@@ -68,4 +68,7 @@
     <None Include="DataBaseSchemaCompare.scmp" />
     <None Include="Dev.DataBase.publish.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="PostDeploymentScript.sql" />
+  </ItemGroup>
 </Project>
